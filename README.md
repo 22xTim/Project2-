@@ -1,7 +1,7 @@
 # CIS 3400 – Advanced Programming
 ## Project 2: Python Application Development
 
-**Student Name:** [Your Name]  
+**Student Name:** [Timothy White]  
 **Project Title:** SleepWise – Sleep Quality Predictor  
 **Course:** CIS 3400 – Advanced Programming  
 **Final Presentation:** December 8, 2026
@@ -38,7 +38,6 @@ Users interact with the application through a Streamlit page. They enter their h
 ## 3. Technologies Used
 
 | Technology | Purpose |
-|---|---|
 | Python | Main programming language |
 | Streamlit | Web interface and application framework |
 | Pandas / NumPy | Data loading, cleaning, and feature preparation |
