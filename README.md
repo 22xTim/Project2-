@@ -54,3 +54,17 @@ Users interact with the application through a Streamlit page. They enter their h
 4. The saved scikit-learn model predicts sleep quality and its probability.
 5. The application displays the prediction, a factor-importance chart, and ranked recommendations.
 6. When the user changes a habit in the what-if panel, steps 3–5 repeat with the new values to show the predicted change.
+
+### Problems & Challenges
+
+Challenge 1: Making the prediction explainable, not just accurate. 
+I plan to use scikit-learn’s feature importances at first, and try SHAP if time allows. Display the results as a simple bar chart in Streamlit so each prediction shows which habits mattered most. 
+
+Challenge 2: Making the “what if” feature trustworthy.
+Changing one habit and re-running the model may suggest improvements that the data doesn’t truly support, since the dataset shows correlation, not cause. Plan: Limit what-if changes to realistic ranges, and show the results as “predicted change” with a short note that this is an estimate. Test a few scenarios by hand to confirm the results make sense.
+
+### Dataset 
+Sleep Efficiency dataset (Kaggle) - https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency/code
+
+
+  
