@@ -47,4 +47,11 @@ Users interact with the application through a Streamlit page. They enter their h
 | Matplotlib | Charts for factor importance and what-if results |
 | Jupyter Notebook | Data exploration and model training |
 
+### How the Application Works
 
+1. The user enters or selects their habits (bedtime, caffeine, alcohol, exercise, and so on).
+2. The Streamlit interface passes the inputs to Python.
+3. Python functions clean and format the inputs to match the model's training data.
+4. The saved scikit-learn model predicts sleep quality and its probability.
+5. The application displays the prediction, a factor-importance chart, and ranked recommendations.
+6. When the user changes a habit in the what-if panel, steps 3–5 repeat with the new values to show the predicted change.
