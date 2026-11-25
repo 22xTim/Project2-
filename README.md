@@ -1,7 +1,7 @@
 # CIS 3400 – Advanced Programming
 ## Project 2: Python Application Development
 
-**Student Name:** [Timothy White]  
+**Student Name:** Timothy White
 **Project Title:** SleepWise – Sleep Quality Predictor  
 **Course:** CIS 3400 – Advanced Programming  
 **Final Presentation:** December 8, 2026
